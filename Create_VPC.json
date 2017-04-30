@@ -101,7 +101,7 @@
       "Properties" : {
         "InstanceType" : "t2.micro",
         "KeyName" : "Test",
-        "ImageId" : "ami-5ec1673e",
+        "ImageId" : "ami-4836a428",
 	"NetworkInterfaces" : [{
           "GroupSet"                 : [{ "Ref" : "InstanceSecurityGroup" }],
           "AssociatePublicIpAddress" : "true",
@@ -140,7 +140,7 @@
       "Properties" : {
         "InstanceType" : "t2.micro",
         "KeyName" : "Test",
-        "ImageId" : "ami-5ec1673e",
+        "ImageId" : "ami-4836a428",
 	"NetworkInterfaces" : [{
           "GroupSet"                 : [{ "Ref" : "DbInstanceSecurityGroup" }],
           "AssociatePublicIpAddress" : "false",
@@ -156,7 +156,7 @@
       "Properties" : {
         "InstanceType" : "t2.micro",
         "KeyName" : "Test",
-        "ImageId" : "ami-11fd2e71",
+        "ImageId" : "ami-1c2a9e7c",
 	"NetworkInterfaces" : [{
           "GroupSet"                 : [{ "Ref" : "InstanceSecurityGroup" }],
           "AssociatePublicIpAddress" : "true",
